@@ -1,0 +1,2144 @@
+/* Medium devices (tablets, 48em and up) */
+
+@media (min-width: 768px) {
+    .navbar-nav li ul.sub-menu,
+    .navbar-nav li ul.sub-menu .sub-menu {
+        border: 0;
+        border-radius: 0;
+        opacity: 0;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: top center;
+        -ms-transform-origin: top center;
+        transform-origin: top center;
+        -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.17, 0.67, 0.59, 1.21), opacity 0.1s 0.1s;
+        transition: transform 1s cubic-bezier(0.17, 0.67, 0.59, 1.21), opacity 0.1s 0.1s;
+        z-index: 100;
+        list-style-type: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: block;
+    }
+
+    .navbar-nav li ul.sub-menu {
+        min-width: 225px;
+    }
+
+    .navbar-nav li ul.sub-menu .sub-menu{
+        top: 0;
+        left: 100%;
+    }
+
+    .navbar-nav li:hover ul,
+    .navbar-nav li ul.sub-menu li:hover .sub-menu{
+        opacity: 1;
+        -webkit-transform: rotateX(0) translateZ(0);
+        transform: rotateX(0) translateZ(0);
+    }
+
+    .main-banner,
+    .fixed-banner,
+    .banner .content-wrap {
+        height: 550px;
+    }
+
+    .main-banner.home2,
+    .home2 .fixed-banner,
+    .home2.banner .content-wrap {
+        height: 500px;
+    }
+
+    .main-banner.inner-banner,
+    .inner-banner .fixed-banner,
+    .inner-banner.banner .content-wrap {
+        height: 350px;
+    }
+
+    .fixed-banner {
+        position: fixed;
+        width: 100%;
+    }
+
+    .single-product .product .images,
+    .single-product .product .summary {
+        float: left;
+        margin: 0;
+    }
+
+    .single-product .product .images {
+        width: 50%;
+    }
+
+    .single-product .product .summary {
+        width: 47.2%;
+        float: right;
+    }
+
+    .form-wrap .one-half {
+        width: 46%;
+    }
+}
+
+
+/* Large devices (desktops, 62em and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 75em and up)*/
+
+@media (min-width: 1200px) {
+    .main-banner,
+    .fixed-banner,
+    .banner .content-wrap {
+        height: 850px;
+    }
+
+    .main-banner.webinar,
+    .main-banner.webinar .content-wrap {
+        height: 750px;
+    }
+
+    .main-banner.home2,
+    .home2 .fixed-banner,
+    .home2.banner .content-wrap,
+    .banner.video-banner-wrap,
+    .banner.video-banner-wrap .content-wrap {
+        height: 700px;
+    }    
+
+    .main-banner.inner-banner,
+    .inner-banner .fixed-banner,
+    .inner-banner.banner .content-wrap {
+        height: 500px;
+    }
+}
+
+
+/* Small devices*/
+
+@media (max-width: 1199px) {
+    body,
+    button,
+    input,
+    select,
+    textarea,
+    code,
+    kbd,
+    pre,
+    samp,
+    .btn,
+    .option-form {
+        font-size: 15px;
+    } 
+
+    .price-box h2,
+    .fact-wrap .no {
+        font-size: 60px;
+    } 
+
+    h1, 
+    .banner-slide .content-wrap h2, 
+    .inner-banner h2, 
+    .about2 h2 {
+        font-size: 36px; 
+    }
+
+    h2{ 
+        font-size: 30px; 
+    }
+
+    h3,
+    .blog-single .content h2{
+        font-size: 28px;
+    }
+
+    h4, 
+    .price-box h2 sup,
+    .option-form h3{
+        font-size: 24px;
+    }
+
+    h5, 
+    .action .btn, 
+    .host .content-wrap.right p:first-child, 
+    .list-vw .post-title, 
+    .single-product .product .summary .price, 
+    .widget-title, 
+    .subscription h3 {
+        font-size: 20px;
+    }
+
+    h6, 
+    .banner p, 
+    .home2-intro strong,
+    h5.product-title,
+    .program-box h5 {
+        font-size: 17px;
+    }
+
+    .prise-list li,  
+    .option-form .btn, 
+    .ready ul li, 
+    .sucess-stories .content, 
+    .vid-author, 
+    .stroy .wrap, 
+    .fun-fact, 
+    ul.clients li, 
+    .webinar .content ul li, 
+    .webinar .btn.btn-lg, 
+    .promo-banner .btn, 
+    .play-btn, 
+    .btn-link, 
+    .video-prise .content, 
+    .about-count-down .btn.btn-lg, 
+    .coaching-program .btn-wrap .btn-link,   
+    .form-box .form-control span.icon, 
+    .form-box input[type="submit"], 
+    .subscription h3 span {
+        font-size: 16px;
+    } 
+
+    footer,
+    .navbar-nav li ul.sub-menu li{ 
+        font-size: 13px; 
+    }
+
+    p,
+    .content-wrap {
+        margin: 0 0 1.5em;
+    }
+
+    .mb-90 {
+        margin-bottom: 70px;
+    }
+
+    .mb-80 {
+        margin-bottom: 60px;
+    }
+
+    .mb-70 {
+        margin-bottom: 50px;
+    }
+
+    .mb-60,
+    .mb-65,
+    .mb-55,
+    .mb-50 {
+        margin-bottom: 40px;
+    }
+
+    .mb-45 {
+        margin-bottom: 35px;
+    }
+
+    .mb-40 {
+        margin-bottom: 30px;
+    }
+
+    .mb-35,
+    .title-wrap.webinar-title.mb-50 {
+        margin-bottom: 25px;
+    }
+
+    .mb-30,
+    .blog-wrap figure,
+    .banner-title,
+    .blog-list figure.mb-45 {
+        margin-bottom: 20px;
+    }
+
+    .mb-25,
+    .blog-list.box .post-info {
+        margin-bottom: 15px;
+    }
+
+    .mb-15,
+    .inner-banner h2 {
+        margin-bottom: 10px;
+    }
+
+    p:last-of-type,
+    .mb-0 {
+        margin-bottom: 0px;
+    }
+
+    .featured-in .img-wrap figure {
+        padding: 0 10px;
+    }
+
+    .fixed-banner {
+        background-size: 1400px;
+    }
+
+    .pri-pad,
+    .stuff.pri-pad,
+    .time-line .nav-tabs,
+    .time-line .tab-content,
+    .stuff {
+        padding: 75px 0;
+    }
+
+    .pri-pad-b,
+    .webi.sucess-stories .wrap,
+    .about-option .option-form,
+    .testimonial.prise-full .prise-list li {
+        padding-bottom: 75px;
+    }
+
+    .featured-in,
+    div#option-form {
+        margin-top: -75px;
+    }
+
+    .sec-pad {
+        padding: 35px 0;
+    }
+
+    .sec-pad-b,
+    div#faq.pri-pad {
+        padding-bottom: 35px;
+    }
+
+    .coach-team.sec-pad-b {
+        padding-bottom: 25px;
+    }
+
+    .pb-0 {
+        padding-bottom: 0;
+    }
+
+    .navbar>.container .navbar-brand {
+        width: 100px;
+    }
+
+    .navbar-nav {
+        margin-top: 0;
+    }
+
+    header.style1 {
+        padding: 10px 0;
+    }
+
+    header.scrolled .navbar-nav,
+    header.style2 .navbar-nav {
+        margin-top: 0;
+    }
+
+    header.style2 .navbar {
+        padding: 10px 0;
+    }
+
+    .banner .content-wrap .inner,
+    .banner.home2 .content-wrap .inner {
+        padding-top: 20px;
+    }
+
+    .banner form .form-group,
+    .banner form .form-group:last-child {
+        width: 32.5%;
+    }
+
+    .banner a.btn {
+        font-size: 15px;
+        padding: 1em 2em;
+    }
+
+    .border-box {
+        padding: 30px 20px;
+    }
+
+    .btn,
+    .subscription input[type="submit"],
+    ul.event-schedule li .date,
+    .option-form.event {
+        font-size: 14px;
+    }
+
+    input[type="date"],
+    input[type="time"],
+    input[type="datetime-local"],
+    input[type="week"],
+    input[type="month"],
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="number"],
+    textarea,
+    button[type="submit"],
+    input[type="submit"],
+    select {
+        padding: 0.6em 0.5em;
+        font-size: 14px;
+    }
+
+    .btn.ex-lg,
+    .btn.btn-lg { 
+        padding: 1.2em 1.6em;
+        font-size: 15px;
+    }
+
+    .play-btn span,
+    .play-btn {
+        height: 100px;
+    }
+
+    .play-btn {
+        width: 100px;
+    }
+
+    .play-btn span {
+        font-size: 22px;
+    }
+
+    .video-prise .wrap .play-btn {
+        width: 70px;
+        height: 70px;
+        line-height: 3;
+    }
+
+    .home2 {
+        margin-top: 90px;
+    }
+
+    .inner-banner {
+        margin-top: 115px;
+    }
+
+    .up-comming-list .right {
+        padding-top: 20px;
+    }
+
+    .program-box .content {
+        padding: 20px 15px 25px;
+    }
+
+    .intro .home2-intro {
+        background-size: 100%;
+        min-height: 620px;
+    }
+
+    .sep {
+        margin: 40px auto 45px;
+    }
+
+    .promo1,
+    .promo2,
+    .promo3,
+    .promo4 {
+        padding: 200px 0 260px;
+    }
+
+    ul.products .product-box.style2 figure,
+    ul.products .product-box.style2 figure .img-wrap {
+        height: 300px;
+    }
+
+    .time-line .col-sm-5 {
+        width: 45%
+    }
+
+    .time-line .col-sm-7 {
+        width: 55%;
+    }
+
+    .blog-g-v .content .wrap {
+        height: 220px;
+        transform: translateY(55%);
+    }
+
+    .related-product .blog-g-v .content .wrap {
+        height: 208px;
+    }
+
+    .video-prise .content.right-align {
+        padding-left: 50px;
+    }
+
+    .video-prise .content.left-align {
+        padding-right: 50px;
+    }
+
+    .blog-single .content {
+        width: 50%;
+    }
+
+    .blog-single .subscription .form-group {
+        width: 48.6%;
+    }
+
+    .blog-single.style2 blockquote {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .blog-single .subscription figure {
+        max-width: 270px;
+    }
+
+    .list-vw .post-title {
+        margin-bottom: 20px;
+        padding-bottom: 25px;
+    }
+
+    .count-down-wrap div.wrap {
+        padding: 10px;
+        min-width: 65px;
+    }
+
+    .nav-tabs.event-tab li a {
+        padding: 20px 30px;
+    }
+
+    ul.event-schedule li ul li {
+        padding-bottom: 20px;
+    }
+
+    .prise-full .prise-list li .box .content-wrap,
+    .prise-list li .box .content-wrap {
+        min-height: 200px;
+    }
+
+    .price-box {
+        padding: 30px 20px;
+    }
+
+    .price-box hr {
+        margin: 25px 0;
+    }
+
+    .price-box ul li {
+        padding-bottom: 20px;
+    }
+
+    .team-wrap figure {
+        margin-bottom: 15px;
+    }
+
+    .webi.sucess-stories .content {
+        width: 55%;
+        top: 40px;
+        padding: 20px;
+    }
+
+    .sucess-stories .content .content-wrap {
+        padding: 40px 0px 0;
+    }
+
+    .arrow-point {
+        width: 55px;
+    }
+
+    .or {
+        margin: 50px 0 22px;
+    }
+
+    .or span {
+        top: -22px;
+    }
+
+    .webinar .content.left {
+        padding-top: 45px;
+    } 
+
+    footer.footer2,
+    footer.footer3 {
+        padding: 30px 0;
+    }
+
+    .footer2 .footer-link li,
+    .footer3 .footer-link li {
+        margin: 0 8px 0 0;
+    }
+
+    footer.footer2 form {
+        width: 70%;
+    }
+    .footer2 .form-group,
+    .footer2 input[type="submit"] {
+        width: 32%;
+    }
+
+    footer.footer2 form input[type="text"],
+    footer.footer2 form input[type="email"],
+    footer.footer2 form input[type="submit"] {
+        min-width: inherit;
+    }
+
+    footer.footer3 hr {
+        margin: 20px 0;
+    }
+
+    .copy-right {
+        padding: 20px 0;
+    }
+
+    .bx-controls.bx-has-controls-direction {
+        display: none;
+    }
+
+    .alignleft {
+        margin: 0.375em 1.8em 2em 0;
+    }
+
+    .alignright {
+        margin: 0.375em 0 2em 1.8em;
+    }
+}
+
+
+/*============= Tablet =============*/
+
+.visible-tab {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .visible-tab {
+        display: block;
+    }
+
+    .time-line .nav-tabs:before {
+        left: 152px;
+    }
+
+    .time-line .nav-tabs>li a {
+        width: 50px;
+    }
+
+    .nav-tabs li .event {
+        max-width: 215px;
+    }
+
+    .home1 h1,
+    .home1 h4,
+    .banner-title {
+        width: 100%;
+    }
+
+    .col-md-10.col-sm-10.col-sm-offset-1,
+    .col-md-10.col-sm-10.col-md-offset-1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .featured-sale .left {
+        padding-top: 130px;
+    }
+
+    .sucess-stories .content .content-wrap {
+        padding: 100px 0px 0;
+    }
+
+    .webi.sucess-stories .col-sm-10.left {
+        margin-left: 8%;
+    }
+
+    .webi.sucess-stories .col-sm-10.right {
+        margin-right: 8%;
+    }
+
+    .list-vw .post-info div {
+        margin-bottom: 5px;
+    }
+
+    .list-vw .post-info div:last-child {
+        margin-bottom: 0;
+    }
+
+    .blog-single .subscription figure {
+        max-width: 250px;
+    }
+
+    .arrow-point {
+        right: 200px;
+    }
+
+    .related-slide {
+        overflow: hidden;
+    }
+
+    .option-form.event a.btn {
+        margin-top: 0;
+    } 
+
+    .team-wrap {
+        padding-bottom: 20px;
+    } 
+
+    .option-form,
+    .about-option .option-form {
+        padding: 40px 0;
+    }
+
+    .testimonial ul.prise-list {
+        margin-bottom: 30px;
+        width: 100%;
+        float: left;
+    }
+
+    .testimonial.prise-full .prise-list li {
+        padding-bottom: 45px;
+    } 
+
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .blog-single .author {
+        padding: 20px;
+        padding-left: 140px;
+        min-height: inherit;
+    }
+
+    .blog-single .avatar {
+        top: 20px;
+        left: 20px;
+    }
+
+    .comment-list .avatar {
+        left: 0;
+        top: 0;
+    }
+
+    .comment-body {
+        padding-left: 85px;
+    }
+
+    .comment-list li ul.comment-list {
+        padding-left: 0;
+    }
+
+    .box-wrap.comment-area.box-wrap {
+        padding: 20px;
+    }
+
+    .box-wrap .comment-respond {
+        margin: 0 -20px -20px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {}
+
+@media (max-width: 992px) {
+    .banner-slide .content-wrap h2 {
+        margin-bottom: 5px;
+    }
+
+    figure.host.webinar-host-img img {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav>li {
+        padding-right: 18px;
+    }
+
+    .navbar-nav li ul.sub-menu {
+        min-width: 140px;
+    }
+
+    .fixed-banner {
+        background-size: cover;
+    } 
+
+    .featured-sale .left {
+        padding-top: 0;
+    }
+
+    .sucess-stories .wrap:nth-child(odd) figure {
+        margin-top: -50px;
+    }
+
+    .promo-banner .content {}
+    .promo1,
+    .promo2,
+    .promo3,
+    .promo4 {
+        padding: 100px 0 150px;
+    }
+
+    .web-join .col-sm-6,
+    .sign-up .stuff .col-md-5.col-sm-5.col-sm-offset-4 {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .up-comming-list li {
+        padding: 0 80px;
+    }
+
+    .up-comming-event .bx-controls.bx-has-controls-direction {
+        display: block;
+    }
+
+    .up-comming-event .bx-wrapper .bx-prev {
+        left: 0;
+    }
+
+    .up-comming-event .bx-wrapper .bx-next {
+        right: 0;
+    }
+
+    .up-comming-list .content-wrap {      
+        margin-bottom: 0;
+    }
+
+    .footer2 .col-sm-8,
+    .footer2 .col-sm-4,
+    .up-comming-list li .col-sm-7,
+    .up-comming-list li .col-sm-5,
+    .blog-single .content,
+    .col-sm-10.col-sm-offset-1.blog-single,
+    .featured-event .col-sm-7,
+    .featured-event .col-sm-5,
+    .ebook.host .col-sm-6,
+    .story-list .col-sm-10.left,
+    .story-list .col-sm-10.right,
+    .about-intro .col-sm-6,
+    .blog-list.box figure,
+    .blog-list.box .content,
+    .blog-list.box figure img,
+    .form-wrap .one-half,
+    .row.faq-wrap .col-sm-6 {
+        width: 100%
+    }
+
+    .prise-list li .box .content-wrap {
+        min-height: initial;
+    } 
+
+    .col-md-9.col-sm-9.blog-block,
+    .col-sm-9.left-block,
+    .col-md-9.col-sm-9.blog-single {
+        width: 60%;
+    }
+
+    .col-md-3.col-sm-3.right-block.sidebar {
+        width: 40%;
+    }
+
+    .blog-list.box figure {
+        margin-bottom: 20px;
+        max-height: 200px;
+        overflow: hidden;
+    }
+
+    .webi.sucess-stories .col-sm-10.left,
+    .webi.sucess-stories .col-sm-10.right {
+        margin: 0;
+    }
+
+    .footer2 .col-sm-4 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    footer hr {
+        margin: 25px 0 30px;
+    }
+
+    .post-info span + span:before {
+        margin-right: 7px;
+        padding-left: 5px;
+    }
+
+    .time-line .col-sm-5 {
+        width: 55%
+    }
+
+    .time-line .col-sm-7 {
+        width: 45%;
+    }
+
+    .nav-tabs li .event {
+        max-width: initial;
+        width: 190px;
+    }
+
+    .clients .img-wrap figure {
+        width: 40%;
+    }
+
+    .prise-list figure {
+        margin: -40px auto 15px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .video-prise .content.right-align {
+        padding-left: 25px;
+        font-size: 14px;
+    }
+
+    .video-prise .content.left-align {
+        padding-right: 25px;
+    }
+
+    .blog-g-v .content .wrap,
+    .related-product .blog-g-v .content .wrap {
+        height: 100%;
+        transform: translateY(0%);
+    }
+
+    .blog-g-v .content .content-wrap,
+    .event-list li figure.post-thumb,
+    .blog-single .subscription figure,
+    .ebook.host .col-sm-5,
+    .about-intro .col-md-5.col-sm-5.col-sm-offset-1 {
+        display: none;
+    }
+
+    .sidebar .subscription {
+        padding: 10px;
+    }
+
+    .sidebar .subscription input[type="submit"] {
+        padding: 0.9em 0;
+    }
+
+    .col-sm-10.col-sm-offset-1.blog-single {
+        margin: 0;
+    }
+    
+
+    .blog-single .subscription .form-group {
+        width: 49%;
+    }
+
+    .blog-single .subscription .form-group + .form-group {
+        float: right;
+    }
+
+    img.alignleft,
+    img.alignright {
+        max-width: 50%;
+    }
+
+    .event-list li .entry-post {
+        padding-left: 0;
+    }
+
+    .featured-event .col-sm-7 {
+        margin-bottom: 30px;
+    }
+
+    h4.product-title {
+        font-size: 18px;
+    }
+
+    .webinar .content-right {
+        padding-top: 0;
+    }
+
+    .webinar .content.left {
+        padding-top: 15px;
+    }
+
+    .webinar h2 {
+        font-size: 20px;
+    }
+
+    .webinar .content.left ul {
+        margin-bottom: 40px;
+    }
+
+    .webinar .content ul li {
+        margin-bottom: 20px;
+    }
+
+    .banner a.btn {
+        font-size: 12px;
+        padding: 1em 1.2em;
+    }
+    .webi.sucess-stories .content {
+        top: 25px;
+    }
+
+    .ebook.host {
+        padding-bottom: 60px;
+    }
+
+    .action .btn,
+    .host .content-wrap.right p:first-child {
+        font-size: 16px;
+    }
+
+    .arrow-point {
+        top: 80px;
+        right: 130px;
+    }
+
+    .host .right {
+        padding-top: 10px;
+    }
+
+    .border-box {
+        padding: 27px 20px 30px;
+    }
+
+    .border-box .border-title {
+        line-height: 1.3;
+    }
+
+    .intro .col-sm-6.wrap {
+        width: 60%;
+    }
+
+    .option-form .btn {
+        margin-top: 11px;
+    }
+
+    .about-option .option-form .btn {
+        margin-top: 0;
+    }
+
+    .serv-list {
+        margin-bottom: 50px;
+        padding-left: 60px;
+    }
+
+    .serv-list i.title-icon {
+        font-size: 50px;
+    }
+
+    .ready .col-sm-7 {
+        width: 65%;
+    }
+
+    .coach-team .col-sm-3 {
+        width: 50%;
+    }
+
+    .team-wrap figure img {
+        width: 100%;
+    }
+
+    .testimonial.prise-full .prise-list li,
+    .coaching-cat-full .coaching-cat .col-sm-4,
+    .coaching-program-full .col-sm-4,
+    .col-sm-4.grid-view-list,
+    li.col-sm-4.product {
+        width: 50%;
+    }
+
+    .sucess-stories .content .content-wrap {
+        padding: 45px 0px 0;
+    }
+
+    .about-intro.pri-pad.pb-0 {
+        padding-bottom: 60px;
+    }
+
+    .contact-info td {
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .contact-info td:last-child {
+        margin-bottom: 0;
+    }
+
+    .contact-info .icon {
+        margin: 0 auto 5px;
+        width: 70px;
+        height: 70px;
+        font-size: 25px;
+    }
+
+    .or {
+        margin: 40px 0 0px;
+    }    
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .footer2 .footer-link {
+        text-align: center;
+    }
+
+    .blog-block .slick-prev,
+    .blog-block .slick-next {
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+
+/*========= Mobile phones ===========*/
+
+@media (max-width: 767px) {
+    body,
+    button,
+    input,
+    select,
+    textarea,
+    code,
+    kbd,
+    pre,
+    samp,
+    .btn,
+    .webinar .content ul li,
+    .stroy .wrap {
+        font-size: 14px;
+    }
+
+    .action .btn,
+    .host .content-wrap.right p:first-child,
+    h6, 
+    .banner p, 
+    .home2-intro strong, 
+    h5.product-title, 
+    .program-box h5 {
+        font-size: 15px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .title-wrap h2,
+    .title-wrap h3,
+    .option-form h3 {
+        line-height: 1.3;
+    }
+
+    .option-form h2 {
+        font-size: 30px;
+    }
+
+    h1,
+    .banner-slide .content-wrap h2,
+    .inner-banner h2,
+    .title-wrap h2,
+    .about-intro .name,
+    .webinar h2 {
+        font-size: 25px;
+    } 
+
+    h2{
+        font-size: 22px;
+    }
+
+    h3,
+    h5.border-title,
+    .option-form h3{
+        font-size: 20px;
+    }
+
+    h4,
+    h5.product-title, 
+    .program-box h5,
+    h5.service-title,
+    .blog-wrap h5,
+    .list-vw .post-title,
+    h5.post-title,
+    .blog-g-v .post-title,
+    .event-list li .entry-post h6{
+        font-size: 18px;
+    }
+
+    h5, 
+    .action .btn, 
+    .host .content-wrap.right p:first-child,  
+    .single-product .product .summary .price, 
+    .widget-title, .subscription h3 {
+        font-size: 16px;
+    }
+
+    .navbar-nav li ul.sub-menu {
+        position: relative;
+        min-width: initial;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 20px;
+        border: 0;
+        background-color: #1c1c1c;
+    }
+
+    .navbar-nav li ul.sub-menu .sub-menu{ 
+        margin: 0;
+        display: block; 
+    }
+
+    .navbar-nav li ul.sub-menu  a.dropdown-toggle{
+        display: none !important;
+    } 
+
+    .navbar-default .navbar-collapse {
+        padding: 0 15px;
+        background-color: #fff;
+    }
+
+    ul.nav.navbar-nav {
+        margin: 50px 0 0;
+        float: none;
+    }
+
+    .navbar-nav>li {
+        padding-right: 0;
+    }
+
+    .navbar-nav>li>a {
+        padding: 10px 15px;
+    }
+
+    .navbar-nav li ul.sub-menu li {
+        border-bottom: 1px solid #000;
+        text-align: center;
+    }
+
+    .navbar-nav li ul.sub-menu li a {
+        padding: 15px 15px;
+    }
+
+    .dropdown-menu>li>a:focus,
+    .dropdown-menu>li>a:hover,
+    .navbar-nav li ul.sub-menu li a:hover {
+        background-color: #0d0d0d;
+    }
+
+    .navbar-nav li.current-menu-item .dropdown-menu li a,
+    .navbar-nav li.current-menu-item .sub-menu li a,
+    .navbar-nav li.current-menu-item ul.sub-menu li a,
+    .navbar-default .navbar-nav>li>a,
+    .style1.webinar-header .navbar-nav ul.sub-menu li a,
+    .style1.webinar-header .navbar-nav .dropdown-menu li a,
+    .dropdown-menu>li>a,
+    .style1.webinar-header .navbar-nav li ul.sub-menu li a {
+        color: #fff;
+    }
+
+    .navbar>.container .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .navbar-default .navbar-collapse {
+        border: 0;
+        margin: 0;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        background-color: #000;
+        position: fixed;
+        right: 0;
+        height: 100% !important;
+        top: 0;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        transform: translateX(100%);
+    }
+
+    .navbar-default .navbar-collapse.in {
+        transform: translateX(0);
+    }
+
+    .navbar-nav li ul.sub-menu li a,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        background-color: #161616;
+    }
+
+    header.style2,
+    header.style3 {
+        position: relative;
+    }
+
+    header.style2.scrolled,
+    header.style3.scrolled {
+        position: fixed;
+    }
+
+    .banner .content-wrap .inner {
+        padding-top: 30px;
+        height: 265px;
+    } 
+
+    .banner.inner-banner .content-wrap .inner{
+        height: initial;
+    }
+
+    .banner .banner-slide .content-wrap .inner { 
+        height: 240px;
+        padding: 0;
+    } 
+
+    .navbar-nav>li.btn a {
+        display: inline-block;
+    }
+
+    .banner .content-wrap .inner h5,
+    .banner form,
+    .banner .content-wrap .inner p,
+    .featured-in,
+    header.style2 .top.dark-blue,
+    .up-comming-event .bx-controls.bx-has-controls-direction,
+    .mouse-wheel,
+    .play-btn em,
+    .video-prise .content,
+    .list-vw .post-info,
+    .banner.inner-banner .content-wrap .tagcloud,
+    .blog-single .btn-wrap,
+    .event-list li figure.post-thumb,
+    .arrow-point,
+    .ui-icon,
+    .about1 .banner-content {
+        display: none;
+    }
+
+    .fixed-banner.home1,
+    .fixed-banner.about1,
+    .fixed-banner.about2 {
+        background-size: 600px;
+        min-height: 265px;
+    }
+
+    .banner.main-banner.home2 .fixed-banner {
+        padding: 0;
+    }
+
+    .banner-slide {
+        overflow: hidden;
+    }
+
+    .banner-slide figure img {
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .home2,
+    .inner-banner {
+        margin-top: 0;
+    }
+
+    .inner-banner .fixed-banner {
+        background-size: 700px;
+        min-height: 175px;
+    }
+
+    .banner.inner-banner .content-wrap {
+        height: 175px;
+    }
+
+    .banner.inner-banner .content-wrap h2 {
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .webinar .banner-content {
+        position: relative;
+    }
+
+    .banner.webinar .content-wrap .inner {
+        text-align: left;
+    }
+
+    .webinar .content ul li,
+    h4.border-title.mb-30 {
+        margin-bottom: 15px;
+    }
+
+    .btn.btn-lg {
+        padding: 0.9em 2em;
+    }
+
+    .container {
+        width: 500px;
+    }
+
+    .banner-content .col-sm-8,
+    .banner form .form-group,
+    .banner form .form-group:last-child,
+    .banner-content .col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-2.col-xs-12,
+    .sucess-stories figure,
+    .sucess-stories .content,
+    .sucess-stories .wrap:nth-child(odd) figure,
+    .webi.sucess-stories .content,
+    .video-prise figure,
+    .promo-banner .content,
+    footer.footer2 form,
+    .footer2 .form-group,
+    .footer2 input[type="submit"],
+    .video-prise figure,
+    .video-prise .content,
+    .blog-single .subscription .form-group,
+    .event-list li .entry-post,
+    .form-box input[type="submit"],
+    .banner-title,
+    .widget img,
+    .form-wrap .form-group,
+    .intro .col-sm-6.wrap,
+    .ready .col-sm-7,
+    .coach-team .col-sm-3,
+    .testimonial.prise-full .prise-list li,
+    .coaching-cat-full .coaching-cat .col-sm-4,
+    .coaching-program-full .col-sm-4,
+    .col-sm-4.grid-view-list,
+    li.col-sm-4.product,
+    .col-md-9.col-sm-9.blog-block,
+    .col-sm-9.left-block,
+    .col-md-9.col-sm-9.blog-single,
+    .col-md-3.col-sm-3.right-block.sidebar,
+    .webinar .btn.btn-lg,
+    .action .btn,
+    .featured-event .btn {
+        width: 100%;
+    }
+
+    .banner-content .col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-2.col-xs-12 {
+        margin: 0;
+    }
+
+    .pri-pad,
+    .stuff.pri-pad,
+    .time-line .nav-tabs,
+    .time-line .tab-content,
+    .stuff {
+        padding: 50px 0;
+    }
+
+    .pri-pad-b,
+    .webi.sucess-stories .wrap,
+    .testimonial.prise-full .prise-list li,
+    div.host,
+    .ebook.host {
+        padding-bottom: 50px;
+    }
+
+    .featured-in,
+    div#option-form {
+        margin-top: -50px;
+    }
+
+    .coaching-cat .col-sm-4 {
+        margin-bottom: 20px;
+    } 
+
+    .prise-full .prise-list li .box .content-wrap,
+    .prise-list li .box .content-wrap {
+        min-height: inherit;
+    }
+
+    .up-comming-list li {
+        padding: 0;
+    }
+
+    .web-join .col-sm-6,
+    .sign-up .stuff .col-md-5.col-sm-5.col-sm-offset-4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .blog .col-sm-4 .blog-wrap {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+
+    .blog .col-sm-4:last-child .blog-wrap {
+        border-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .title-wrap {
+        margin-top: -8px;
+    }
+
+    .option-form {
+        text-align: center;
+    }
+
+    .option-form .btn {
+        float: none !important;       
+        margin: 10px 0 5px;
+    }
+
+    .intro .home2-intro {
+        min-height: initial;
+        background: none;
+    }
+
+    .intro .home2-intro .col-sm-7 {
+        margin-bottom: 20px;
+    } 
+
+    .program-box,
+    .blog .col-sm-4 .blog-wrap,
+    .blog-g-v {
+        width: 370px;
+        margin: 0 auto 25px;
+    }
+
+    .sucess-stories .wrap:nth-child(odd) figure {
+        margin: 0;
+        float: none;
+    }
+
+    .sucess-stories .wrap,
+    .video-prise .wrap {
+        margin-bottom: 40px;
+    }
+
+    .sucess-stories .content .content-wrap {
+        padding: 25px 0px 0;
+    }
+
+    .promo-banner .content {
+        float: none;
+        text-align: center;
+    }
+
+    .promo-banner .btn.pull-right {
+        float: none !important;
+    }
+
+    .promo1,
+    .promo2,
+    .promo3,
+    .promo4 {
+        padding-bottom: 100px;
+    }
+
+    .play-btn,
+    .webinar .play-btn {
+        width: 60px;
+    }
+
+    .play-btn span,
+    .play-btn,
+    .webinar .play-btn,
+    .webinar .play-btn span {
+        height: 60px;
+    }
+
+    .play-btn span,
+    .webinar .play-btn span {
+        font-size: 12px;
+    }
+
+    .webinar .play-btn span {
+        line-height: 4.6;
+    }
+
+    .service-wrap .col-sm-4,
+    .faq-wrap-full .title-wrap.mb-80,
+    .faq-wrap .col-sm-6 {
+        margin-bottom: 40px;
+    }
+
+    .fun-fact .content-wrap.mb-90,
+    .row.stroy .col-sm-6,
+    .video-prise .col-md-12.col-sm-12.mb-80,
+    .left-block,
+    .blog-block.classic-view,
+    .col-md-9.col-sm-9.blog-single,
+    .blog-single.style2.mb-70,
+    .more-info .col-sm-4,
+    .action .title-wrap.mb-70,
+    .single-product .product .images {
+        margin-bottom: 30px;
+    }
+
+    .shop-list .col-sm-4 .product-box,
+    .stroy .wrap,
+    .about-option .option-form .col-sm-9,
+    .pricing-box .col-sm-4,
+    .blog-list.list-vw figure.mb-45,
+    .list-vw .left-block,
+    img.aligncenter,
+    .option-form.event .col-sm-9,
+    .banner .content-wrap .inner .mb-60,
+    .about-top .mb-45,
+    .about-count-down .mb-60,
+    .webinar .content.left ul,
+    .webinar .vid-wrap,
+    .webinar .content ul,
+    .webinar-record .title-wrap.mb-50,
+    .price.mb-40,
+    .title-wrap.mb-55,
+    .title-wrap.mb-50,
+    .price-box h6.title.mb-40 {
+        margin-bottom: 20px;
+    }
+
+    figure.host.webinar-host-img {
+        text-align: center;
+    }
+
+    figure.host.webinar-host-img img {
+        max-width: 200px;
+    }
+
+    .service-wrap figure.mb-35,
+    .form-wrap .form-group {
+        margin-bottom: 15px;
+    }
+
+    .featured-in.bottom {
+        display: block;
+    }
+
+    .featured-in .img-wrap figure {
+        display: inline-block;
+        width: 49%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .ready .image,
+    .ready.promo .image,
+    .about.intro .image {
+        background: #f5f5f5;
+    }
+
+    .intro .parallax-wrap .stuff,
+    .sign-up .stuff {
+        padding: 0;
+    }
+
+    .sign-up-2 .stuff {
+        padding: 15px 0;
+    } 
+
+    .praise .image,
+    .intro .image,
+    .sign-up .image,
+    .sign-up-2.pri-pad-b .image,
+    .about.intro .image {
+        background: none;
+    }
+
+    .about.intro.top {
+        padding-top: 50px;
+    }
+
+    .company {
+        margin-bottom: -7px;
+    }
+
+    .company .content-wrap {
+        column-count: 1;
+        column-gap: 0;
+    }
+
+    .coach-team.sec-pad-b,
+    .pb-0 {
+        padding-bottom: 0;
+    }
+
+    .team-wrap {
+        width: 270px;
+        margin: 0 auto 25px;
+    }
+
+    .about-option .option-form {
+        line-height: 1.6;
+    }
+
+    .fact-wrap {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+
+    .fun-fact .soft-gray.pri-pad {
+        padding-bottom: 20px;
+    }
+
+    .video-prise .wrap,
+    .navbar-nav>li.btn {
+        float: none;
+        text-align: center;
+    }
+
+    .navbar-nav>li.btn {
+        margin: 15px 15px 0;
+    }
+
+    .widget.widget_recent_entries ul li {
+        padding-left: 90px;
+    }
+
+    .widget_recent_entries ul li figure {
+        position: absolute;
+        width: 80px;
+        left: 0;
+    }
+
+    .blog-block {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+
+    .row.blog-list {
+        padding-bottom: 25px;
+    }
+
+    .blog-list .col-sm-9.right-block {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 30px;
+    }
+
+    .blog-list:last-child .col-sm-9.right-block {
+        padding-bottom: 0;
+        border: 0;
+    }
+
+    .list-vw .post-title {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .list-vw .post-title:after {
+        content: none;
+    }
+
+    .pagination .page-numbers li .page-numbers,
+    .woocommerce-pagination .page-numbers li .page-numbers,
+    .pagination li a {
+        width: 30px;
+        height: 30px;
+        padding: 0.6em 0;
+    }
+
+    .blog-block.classic-view {
+        width: 100%;
+        float: left;
+    }
+
+    .blog-list.box .post-info span,
+    .banner-content .post-info span {
+        padding-right: 10px;
+    }
+
+    .blog-list.box .post-title.mb-5 {
+        margin-bottom: 8px;
+    }
+
+    .blog-single .subscription .form-group + .form-group {
+        margin-left: 0;
+    }
+
+    blockquote {
+        margin: 25px;
+        font-size: 15px;
+    }
+
+    img.alignleft,
+    img.alignright {
+        max-width: 45%;
+    }
+
+    .alignleft {
+        margin: 0.375em 1.5em 1.5em 0;
+    }
+
+    .alignright {
+        margin: 0.375em 0 1.5em 1.5em;
+    }
+
+    .bottom.box-border {
+        padding: 5px;
+    }
+
+    .btn-wrap .wrap.text-right .entry-title {
+        padding-left: 10px;
+    }
+
+    .avatar {
+        width: 50px;
+        height: 50px;
+    }
+
+    .blog-single .avatar {
+        top: 20px;
+        left: 10px;
+    }
+
+    .blog-single .author {
+        padding-left: 75px;
+        padding-top: 20px; 
+    }
+
+    .comment-list .comment-content,
+    .blog-single .author {
+        font-size: 13px;
+    }
+
+    .box-wrap .comment-respond,
+    .box-wrap.comment-area.box-wrap,
+    .sign-up .box,
+    .blog-single .subscription,
+    .intro .parallax-wrap .blue-bg {
+        padding: 20px;
+    }
+
+    .box-wrap .comment-respond {
+        margin: 0 -20px -20px;
+    }
+
+    .comment-list {
+        margin: 0px 0 20px 0;
+        padding: 0;
+    }
+
+    .comment-list li {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .comment-list .avatar {
+        width: 50px;
+        height: 50px;
+        top: 0;
+        left: 5px;
+    }
+
+    .comment-list li .more {
+        margin-top: 50px;      
+        width: 60px;
+    }
+
+    .comment-body {
+        padding-left: 70px;
+    }
+
+    .comment-list li ul.comment-list {
+        margin: 20px 0 0 0;
+        padding: 20px 0 0 30px;
+    }
+
+    .widget li a {
+        padding: 3px 5px 3px 15px;
+    }
+
+    .widget-title {
+        margin-bottom: 10px;
+    }
+
+    .related-product.pri-pad {
+        overflow: hidden;
+    }
+
+    .related-slide .slick-slide {
+        margin-right: 0;
+    } 
+
+    .blog-single .subscription h2 {
+        font-size: 20px;
+    }
+
+    .count-down-wrap div.wrap {
+        padding: 8px;
+        width: 55px;
+        min-width: initial;
+        font-size: 11px;
+    }
+
+    .count-down-wrap div.wrap + div.wrap {
+        margin-left: 14px;
+    }
+
+    .count-down-wrap div.wrap + div.wrap:before {
+        font-size: 20px;
+        left: -10px;
+        line-height: 2.5;
+    }
+
+    .event-list li .entry-post,
+    .event-list li .button-wrap,
+    .event-list li .entry-post .post-info span  {
+        display: block;
+    }
+
+    .event-list li .entry-post .post-info span + span:before{
+        content: none;
+    }
+
+    .event-list li{
+        margin-bottom: 10px;
+    } 
+
+    .event-list li .button-wrap {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .about-count-down h2,
+    .option-form h2 {
+        font-size: 25px;
+    }
+
+    .webinar .botton-wrap {
+        text-align: center;
+    }
+
+    ul.nav.nav-tabs.event-tab {
+        padding: 15px 0;
+    }
+
+    .nav-tabs.event-tab li {
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .nav-tabs.event-tab li a {
+        padding: 10px;
+    }
+
+    #event-info .title-wrap.mb-35 {
+        margin-bottom: 15px;
+    }
+
+    .map-wrap iframe {
+        height: 200px;
+    }
+
+    ul.event-schedule li ul {
+        margin: 0 0 0 15px;
+        padding: 25px 0;
+    }
+
+    ul.event-schedule li ul li {
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+
+    .banner.webinar .content-wrap .inner {
+        padding: 30px 0;
+    }
+
+    .webinar-intro {
+        margin-bottom: 25px;
+    }
+
+    .serv-list {
+        margin-bottom: 30px;
+        padding-right: 0;
+        padding-left: 50px;
+    }
+
+    .serv-list i.title-icon {
+        font-size: 35px;
+    }
+
+    .webi.sucess-stories .content {
+        top: 0;
+        position: relative;
+    }
+
+    .webi.sucess-stories .right .wrap figure {
+        float: none;
+    }
+    .action .btn {
+        padding: 0.9em 0.8em;
+    }
+
+    .action h3 {
+        font-size: 20px;
+    }
+
+    .host .name {
+        line-height: 1;
+    }
+
+    .ebook.host .content-wrap.right {
+        margin-bottom: 15px;
+    }
+
+    .form-box {
+        padding: 25px 20px;
+    }
+
+    .form-box .form-control {
+        margin-bottom: 15px;
+        padding: 0 0 0 30px;
+        overflow: hidden;
+    }
+
+    .web-join .col-sm-6 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-box .form-control span.icon {
+        top: 12px;
+    }
+
+    .summary.entry-summary input[type="submit"] {
+        margin-left: 0;
+    }
+
+    .option-form,
+    .about-option .option-form,
+    .option-form.event {
+        padding: 25px 0;
+    }
+
+    .dis-acc {
+        margin-top: 50px;
+    }
+
+    .product-box figure {
+        height: initial;
+    }
+
+    ul.products .product-box.style2 figure,
+    ul.products .product-box.style2 figure .img-wrap {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    ul.products .product-box.style2 figure img,
+    ul.products .product-box.style2 figure img {
+        width: auto;
+    }
+
+    #product-description.ui-accordion .ui-accordion-header {
+        padding: 15px 10px;
+    }
+
+    .banner.main-banner.video-banner-wrap {
+        height: 250px;
+    }
+
+    .shop-list .col-sm-4:last-child .product-box,
+    .row.stroy .col-sm-6:last-child,
+    .featured-in .img-wrap figure:last-child,
+    .sucess-stories .wrap:last-child,
+    .video-prise .wrap:last-child,
+    .service-wrap .col-sm-4:last-child,
+    .video-prise .col-md-12.col-sm-12.mb-80:last-child,
+    .row.coaching-cat.mb-20,
+    .coaching-program-full .row.mb-20,
+    .coaching-program-full .col-sm-4:last-child,
+    .coaching-program-full .col-sm-4:last-child .program-box,
+    .pricing-box .col-sm-4:last-child,
+    .faq-wrap .col-sm-6:last-child,
+    .sidebar .widget:last-child,
+    .col-sm-4.grid-view-list,
+    .col-sm-4.grid-view-list:last-child .blog-g-v,
+    .blog-list-wrap.mb-30,
+    li.grid-view-list.slick-slide .blog-g-v,
+    .more-info .col-sm-4:last-child,
+    .title-wrap.webinar-title.mb-50,
+    .ebook.host .right,
+    ul.products li.product:last-child,
+    .coaching-program .row.mb-60,
+    .coaching-cat .col-sm-4:last-child,
+    .banner .content-wrap .inner h1 {
+        margin-bottom: 0;
+    }
+
+    footer .top .mb-55,
+    footer .top .col-sm-5 {
+        margin-bottom: 25px;
+    }
+
+    footer .top .col-sm-4 {
+        margin-bottom: 35px;
+    }
+
+    footer h6 {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    footer form {
+        margin-top: 20px;
+    }
+
+    .footer2 .col-sm-4 {
+        text-align: left;
+    }
+
+    .footer2 .footer-link li,
+    .footer3 .footer-link li {
+        margin: 0 0 3px;
+        width: 49%;
+    }
+
+    .footer2 .form-group,
+    .footer2 input[type="submit"] {
+        margin: 0 0 10px;
+    }
+
+    footer.footer2 .social {
+        float: left;
+    }
+
+    footer.footer2 .social-icons {
+        margin-top: 15px;
+    }
+
+    footer.footer3 {
+        text-align: left;
+    }
+
+    footer.footer3 .social-icons {
+        text-align: center;
+    }
+
+    .ui-accordion .ui-accordion-content {
+        padding: 1em; 
+    }
+}
+
+@media (max-width: 767px) and (min-width: 540px) {}
+
+@media (max-width: 767px) and (min-width: 482px) {}
+
+@media (max-width: 481px) {
+    .container,
+    .program-box,
+    .blog .col-sm-4 .blog-wrap,
+    .service-wrap .col-sm-4,
+    .blog-g-v,
+    .sign-up input[type="submit"],
+    .form-wrap input[type="submit"] {
+        width: 100%;
+    }
+
+    .promo-banner .btn.ex-lg {
+        min-width: initial;       
+        width: 70%;
+    }
+
+    .banner-slide figure img {
+        max-width: 650px;
+    }
+
+    .promo-banner .btn.ex-lg {
+        width: 80%;
+    }
+}
+
+@media (max-width: 360px) {
+    .action .btn{ 
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 330px) {
+    .banner a.btn {
+        display: block;
+    }
+
+    .banner a.btn + a.btn {
+        margin: 5px 0 0 0;
+    }
+}

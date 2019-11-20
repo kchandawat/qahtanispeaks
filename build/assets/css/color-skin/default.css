@@ -1,0 +1,181 @@
+/*===================== primary color ==============*/
+
+a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.style1.webinar-header .navbar-nav li.current-menu-item a,
+.style1.webinar-header .navbar-nav li a:hover,
+.navbar-nav li.current-menu-item a,
+.title-wrap h5,
+.sign-up h3 span,
+.coaching-program .btn-link,
+.name,
+.fact-wrap .no,
+.serv-list i.title-icon,
+.form-box p a:hover,
+.price-box h2,
+.widget_recent_entries .more,
+.comment-list li .more,
+ul.event-schedule li ul li .thumb,
+ul.products .product-box.style2:hover h4 a {
+    color: #3498db;
+}
+
+
+/*================ primary bg ========*/
+
+.primary-bg,
+.banner input[type="submit"]:hover,
+.btn.sec-bg:hover,
+.border-title:after,
+footer form input[type="submit"]:hover,
+.program-box:hover .btn.sec-bg,
+.ready .btn:hover,
+.btn.btn-white:hover, 
+.time-line .nav-tabs a i,
+.time-line .nav-tabs a,
+.time-line .nav-tabs>li.active>a,
+.time-line .nav-tabs>li.active>a:focus,
+.time-line .nav-tabs>li.active>a:hover,
+.time-line .nav-tabs>li>a:hover,
+.time-line .nav>li>a:focus,
+.time-line .nav>li>a:hover,
+.webi.sucess-stories .author:before,
+.price-box:before,
+.price-box:hover .btn.sec-bg,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover,
+.blog-g-v .content:before,
+.subscription input[type="submit"]:hover,
+.widget_search button:hover,
+.woocommerce-pagination .page-numbers li .page-numbers.current,
+.woocommerce-pagination .page-numbers li .page-numbers:hover,
+.border-box:hover .btn.sec-bg,
+.form-wrap input[type="submit"]:hover,
+.scrollup:hover,
+.YouTubePopUp-Close:hover,
+.team-wrap:hover, 
+.tagcloud a:hover,
+.tagcloud a:focus,
+.tag-links a:hover,
+.ui-state-active, 
+.ui-widget-content 
+.ui-state-active, 
+.ui-widget-header 
+.ui-state-active, 
+a.ui-button:active, 
+.ui-button:active, 
+.ui-button.ui-state-active:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.navbar-nav li ul.sub-menu li a:hover,
+.price-box:hover hr:after {
+    background-color: #3498db;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover,
+.woocommerce-pagination .page-numbers li .page-numbers.current,
+.woocommerce-pagination .page-numbers li .page-numbers:hover,
+.animated-border:before,
+.animated-border:after,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.tag-links a:hover,
+.ui-state-active, 
+.ui-widget-content 
+.ui-state-active, 
+.ui-widget-header 
+.ui-state-active, 
+a.ui-button:active, 
+.ui-button:active, 
+.ui-button.ui-state-active:hover {
+    border-color: #3498db;
+}
+
+
+/*================ secondary color ===========*/
+
+.sec-color,
+.post-info a:hover,
+.footer-link li a:hover,
+header ul.social-icons li a:hover,
+header .top a:hover,
+.coaching-program .btn-link:hover,
+header.style3 .top span a,
+.navbar-nav>li.btn a,
+ul.clients li .content-wrap,
+.webinar-title h2,
+.form-box p a,
+.video-prise .wrap .play-btn,
+.blog-list.box .post-info,
+.blog-list.box .post-info a,
+.widget_recent_entries .post-date,
+.widget li a:hover,
+blockquote,
+.comment-list li .more:hover,
+.btn-wrap .btn-link:hover,
+.count-down-wrap div h4,
+.count-down-wrap div.wrap + div.wrap:before,
+.summary .price ins,
+.woocommerce-tabs ul.tabs li a:hover,
+.woocommerce-tabs ul.tabs li.active a,
+.slick-dots li.slick-active button:before {
+    color: #e74c3c;
+}
+
+
+/*================ secondary bg ===========*/
+
+.sec-bg,
+.featured-sale .btn:hover,
+input[type="submit"],
+ul.social-icons li a:hover,
+.btn.dark-blue:hover,
+.play-btn:hover span,
+.border-box:hover .btn.dark-blue,
+.navbar-nav>li.btn a:hover,
+.video-prise .wrap .play-btn:hover,
+.video-prise .wrap figure:hover .play-btn,
+.btn.btn-bdr:hover,
+.subscription,
+.widget_search button,
+.comment-respond input[type="submit"]:hover,
+.event-list li:hover .btn.btn-bdr,
+.summary.entry-summary input[type="submit"]:hover,
+.woocommerce-tabs ul.tabs li a:hover:before,
+.woocommerce-tabs ul.tabs li.active a:before,
+.scrollup,
+.YouTubePopUp-Close,
+.navbar-toggle.collapsed .icon-bar,
+.promo-banner .btn.btn-white:hover,
+.promo-banner .btn.bdr:hover {
+    background-color: #e74c3c;
+}
+
+
+/*================ secondary border ===========*/
+
+.border-box.sec-border,
+ul.social-icons li a:hover,
+.navbar-nav>li.btn a,
+.prise-list li:hover figure,
+.video-prise .wrap .play-btn,
+.btn.btn-bdr:hover,
+.count-down-wrap div.wrap,
+.event-list li:hover .btn.btn-bdr,
+.count-down-wrap div h4,
+.promo-banner .btn.btn-white:hover,
+.promo-banner .btn.bdr:hover {
+    border-color: #e74c3c;
+}
