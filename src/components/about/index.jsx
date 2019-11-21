@@ -79,11 +79,9 @@ class About extends Component {
                     </p>
 
                     <p>
-                      He is successful both in engineering and public speaking
-                      and is a certified programmer from Microsoft and SAP,
-                      certified database administrator from Oracle and
-                      Microsoft, and certified advance speaker Gold from
-                      Toastmaster international.
+                      Mohammed speaks about several topics such as coping with change, 
+                      Empowerment in the workplace, building the perfect team, the art of
+                      negotiation and using powerful words when speaking.
                     </p>
                   </div>
 
@@ -314,21 +312,21 @@ class About extends Component {
 
                     <div className="fact-wrap">
                       <div className="no">
-                        <span className="counter">91</span>+
+                        <span className="counter">35</span>+
                       </div>{" "}
-                      International speeches given
+                      Countries
                     </div>
 
                     <div className="fact-wrap">
                       <div className="no">
-                        <span className="counter">300</span>
+                        <span className="counter">350</span>
                       </div>{" "}
                       Keynotes given
                     </div>
 
                     <div className="fact-wrap">
                       <div className="no">
-                        <span className="counter">987</span>
+                        <span className="counter">220</span>
                       </div>{" "}
                       Workshop Conducted
                     </div>
